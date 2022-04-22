@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let numbers = [273, 52, 103, 32, 57];
+      numbers = numbers.map(function (value, index, array) {
+        return value * value;
+      });
+
+      //numbers.forEach(console.log);
+    </script>
+    <script>
+        let teams=['수현','은교','하나','화연']
+        //map  함수를 사용해서 조원 명에 화이팅 문자열을 teams 배열로 저장 후 출력
+        teams.map(function(team){
+            return team+'화이팅!';
+        })
+        document.write(teams)
+    </script>
+  </body>
+</html>
